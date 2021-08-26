@@ -36,3 +36,47 @@
     transform: rotate(360deg);
   }
 }
+
+/* styles */
+.App {
+  background: #002db3;
+  color: white;
+}
+
+.taskgroups{
+  display: flex;
+  justify-content: space-evenly;
+}
+.header-group{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.taskgroups span{
+  margin-right: 25px;
+}
+
+button{
+  background: #b3d9ff;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px;
+}
+.input-group input{
+  width: 50%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.input-group{
+  margin: 10px;
+}
+
+input{
+  outline: none;
+}
+
+input::placeholder{
+  color:blue;
+}
